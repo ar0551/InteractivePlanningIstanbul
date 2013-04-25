@@ -1,3 +1,27 @@
+/* 
+ * Copyright (c) 2013-2014 Lila PanahiKazemi & Andrea Rossi
+ * INTERACTIVE_PLANNING_ISTANBUL WORKSHOP
+ * MediaCities Conference 2013 - 3-5 May 2013
+ * Buffalo State University of New York
+ *
+ * for more details: http://temporaryautonomousarchitecture.blogspot.de/
+ * for questions regarding the script: a.rossi.andrea@gmail.com, lilapanahi@gmail.com
+ */
+
+/*
+ * Libraries: 
+ */
+
+/* 
+ * CONTROLS: 
+ *
+ */
+
+/*
+ * INSTRUCTIONS
+ * 
+ */
+
 import toxi.geom.*;
 
 int cols = 50;
@@ -34,19 +58,19 @@ void draw() {
       strokeWeight(1);
 
 
-      fill(random(0,255), random(0,255), random(0,255));
-      
+      fill(random(0, 255), random(0, 255), random(0, 255));
+
       //commenting the previous line and uncommenting all these lines makes the interpolation by colors based ona gradient
 
-//      float r = map(i, 0, cols, 0, 255);
-//      float g = map(j, 0, rows, 0, 255);
-//      float b = map(i+j, 0, cols + rows, 0, 255);
-//
-//      r *= sin(colorCount/colorFreq);
-//      g *= cos(colorCount/colorFreq);
-//      b *= cos(colorCount/colorFreq)*sin(colorCount/colorFreq);
-//      
-//      fill(r, g, b);
+      //      float r = map(i, 0, cols, 0, 255);
+      //      float g = map(j, 0, rows, 0, 255);
+      //      float b = map(i+j, 0, cols + rows, 0, 255);
+      //
+      //      r *= sin(colorCount/colorFreq);
+      //      g *= cos(colorCount/colorFreq);
+      //      b *= cos(colorCount/colorFreq)*sin(colorCount/colorFreq);
+      //      
+      //      fill(r, g, b);
 
       rectMode(CORNER);
       rect(i*xSize, j*ySize, xSize, ySize);
