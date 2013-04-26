@@ -62,6 +62,9 @@ void setup() {
 
   //initialization of houses arraylist
   houses = new ArrayList <House>();
+  
+  // start the timer
+  timer.start();
 }
 
 
