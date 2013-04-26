@@ -63,10 +63,13 @@ class Cell {
         if (explodedView) { //if wanted to explode the view in layers, the layer gets translated on the z axis
           translate(0, 0, explodedAmount);
         }
-        noStroke();
+        stroke(0);
+        strokeWeight(1);
         fill(col);
         rectMode(CENTER);
-        rect(loc.x + dim/2, loc.y + dim/2, dim, dim);
+        translate(loc.x + dim/2, loc.y + dim/2, dim/2);
+        //rect(loc.x + dim/2, loc.y + dim/2, dim, dim);
+        box(dim);
         popMatrix();
       }
       
