@@ -14,12 +14,17 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE09
+ * Cellular Automata: The Game of Life
+ * For details: http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
  *
  */
 
 /*
- * INSTRUCTIONS
+ * CONTROLS:
+ * LeftMouseButton: orbit
+ * CenterMouseButton: pan
+ * RightMouseButton: zoom
  * 
  */
 

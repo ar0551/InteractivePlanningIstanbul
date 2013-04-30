@@ -14,16 +14,21 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY02_EXE01
+ * Multi-State Automata: Simple Sand piles formation
+ *
+ */
+
+/* 
+ * CONTROLS:  
+ * LeftMouseButton: orbit
+ * CenterMouseButton: pan
+ * RightMouseButton: zoom
+ * 
  * a_ add/stop sand grains
  * 3_ show dunes in 3D
  * r_ reset the simulation
  *
- */
-
-/*
- * INSTRUCTIONS
- * 
  */
 
 

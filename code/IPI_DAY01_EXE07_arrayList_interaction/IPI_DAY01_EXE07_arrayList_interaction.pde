@@ -13,15 +13,18 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE07
+ * creating an arrayList of ball objects, adding and removing them with controls
  *
  */
 
 /*
- * INSTRUCTIONS
+ * CONTROLS:
+ * Move the mouse to attract the balls towards it
+ * MouseLeftClick_ create new ball objects
+ * AnyKey_ delete all the ball objects
  * 
  */
-
 
 
 ///////////////////////////////////////////////////////////////////////////////////LIBRARIES

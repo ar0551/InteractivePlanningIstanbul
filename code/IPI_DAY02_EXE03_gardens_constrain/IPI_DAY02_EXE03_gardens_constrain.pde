@@ -13,13 +13,20 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY02_EXE03
+ * Informal Settlements Simulation #02: plot/garden constrain
+ * Starting from the income based model, the script introduces a series of constrains to the growth.
+ * These mainly are the intruduction of a plot/garden around each unit, defining at the same time the space of growth of the unit
+ * and the plot associated to the house, in order to avoid overlappings with other units.
  *
  */
 
-/*
- * INSTRUCTIONS
- * 
+/* 
+ * CONTROLS:  
+ * LeftMouseButton: orbit
+ * CenterMouseButton: pan
+ * RightMouseButton: zoom
+ *
  */
 
 

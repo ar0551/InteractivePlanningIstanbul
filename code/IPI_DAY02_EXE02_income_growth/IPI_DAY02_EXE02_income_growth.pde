@@ -13,13 +13,19 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY02_EXE02
+ * Informal Settlements Simulation #01: cellular growth based on income model
+ * Each cell appearing represents a housing unit.
+ * The script describes the additive growth of informal settlements based on a random income status.
  *
  */
 
-/*
- * INSTRUCTIONS
- * 
+/* 
+ * CONTROLS:  
+ * LeftMouseButton: orbit
+ * CenterMouseButton: pan
+ * RightMouseButton: zoom
+ *
  */
 
 

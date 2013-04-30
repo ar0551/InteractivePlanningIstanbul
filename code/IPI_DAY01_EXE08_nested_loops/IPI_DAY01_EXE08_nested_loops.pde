@@ -9,21 +9,21 @@
  */
 
 /*
- * Libraries: 
+ * Libraries: Toxiclibs 
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE07
+ * Using nester for loops to create a grid of changing color rectangles
  *
  */
+ 
 
-/*
- * INSTRUCTIONS
- * 
- */
-
+///////////////////////////////////////////////////////////////////////////////////LIBRARIES
 import toxi.geom.*;
 
+
+///////////////////////////////////////////////////////////////////////////////////VARIABLES
 int cols = 50;
 int rows = 50;
 
@@ -34,6 +34,7 @@ int colorCount = 0;
 float colorFreq = 50;
 
 
+///////////////////////////////////////////////////////////////////////////////////SETUP
 void setup() {
   size(800, 800);
   smooth();
@@ -47,18 +48,20 @@ void setup() {
   println("xSize: " + xSize + "; ySize: " + ySize);  //the text between "" will be printed as it is
 }
 
+
+///////////////////////////////////////////////////////////////////////////////////DRAW
 void draw() {
   background(0);
 
 
   //nested for loops
-  for (int i = 0; i < cols; i++) {
-    for (int j = 0; j < rows; j++) {
+  for (int i = 0; i < cols; i++) { // for loop going through the columns
+    for (int j = 0; j < rows; j++) {  // for loop going through the rows
       stroke(255, 100);
       strokeWeight(1);
 
 
-      fill(random(0, 255), random(0, 255), random(0, 255));
+      fill(random(0, 255), random(0, 255), random(0, 255)); // chosing a random color
 
       //commenting the previous line and uncommenting all these lines makes the interpolation by colors based ona gradient
 
@@ -73,9 +76,9 @@ void draw() {
       //      fill(r, g, b);
 
       rectMode(CORNER);
-      rect(i*xSize, j*ySize, xSize, ySize);
+      rect(i*xSize, j*ySize, xSize, ySize); //drawing the rectangle at the location i, j in the grid
     }
   }
-  colorCount++;
+  colorCount++; // counter to interpolate color change
 }
 

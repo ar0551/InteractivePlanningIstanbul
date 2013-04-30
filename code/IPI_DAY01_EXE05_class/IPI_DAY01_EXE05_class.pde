@@ -13,12 +13,14 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE05
+ * creating a ball object seeking the mouse location
  *
  */
 
 /*
- * INSTRUCTIONS
+ * CONTROLS:
+ * Move the mouse to attract the ball towards it
  * 
  */
 

@@ -11,9 +11,23 @@
 /*
  * Libraries: Toxiclibs, PeasyCam, ControlP5
  */
+ 
+/* 
+ * DAY02_EXE05
+ * Informal Settlements Simulation #04: segregation logics
+ * The last step of the simulation is to introduce different social groups and their segregation logics.
+ * Each house is assigned to a specific group, and it connects in a network to the houses of the same group.
+ * The resulting connectivity graphs determines a new potential fiels, that attracts houses of the same type in the location.
+ * After a certain number of cycles, patterns of segregation between the different groups clearly emerge.
+ *
+ */
 
 /* 
- * CONTROLS:
+ * CONTROLS:  
+ * LeftMouseButton: orbit
+ * CenterMouseButton: pan
+ * RightMouseButton: zoom
+ *
  * 1_ display/hide houses
  * 2_ display/hide streets
  * 3_ display/hide the connectivity network
@@ -29,12 +43,6 @@
  * f_ save the current frame as .png file
  *
  */
-
-/*
- * INSTRUCTIONS
- * 
- */
-
 
 
 ///////////////////////////////////////////////////////////////////////////////////LIBRARIES

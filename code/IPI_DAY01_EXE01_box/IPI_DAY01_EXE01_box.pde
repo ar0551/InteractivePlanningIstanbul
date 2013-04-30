@@ -9,13 +9,9 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE01
+ * Basic script drawing a rectancgle in the middle of the screen
  *
- */
-
-/*
- * INSTRUCTIONS
- * 
  */
 
 

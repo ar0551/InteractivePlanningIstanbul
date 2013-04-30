@@ -13,12 +13,14 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE06
+ * creating an array of ball objects
  *
  */
 
 /*
- * INSTRUCTIONS
+ * CONTROLS:
+ * Move the mouse to attract the ball towards it
  * 
  */
 

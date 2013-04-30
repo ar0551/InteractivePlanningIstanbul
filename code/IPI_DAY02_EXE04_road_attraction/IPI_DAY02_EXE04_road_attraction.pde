@@ -13,7 +13,20 @@
  */
 
 /* 
- * CONTROLS:
+ * DAY02_EXE04
+ * Informal Settlements Simulation #03: road attraction
+ * Roads are inserted in the simulation as attractors for the growth.
+ * At the beginning of the simulation, a potential for each cell is calculated according to the distance of the cell from the closest road.
+ * This potential will increase the probability of a cell of being picked ad new site of development for a new housing unit
+ *
+ */
+
+/* 
+ * CONTROLS:  
+ * LeftMouseButton: orbit
+ * CenterMouseButton: pan
+ * RightMouseButton: zoom
+ *
  * 1_ display/hide houses
  * 2_ display/hide streets
  * 3_ display/hide potential map
@@ -24,12 +37,6 @@
  * f_ save the current frame as .png file
  *
  */
-
-/*
- * INSTRUCTIONS
- * 
- */
-
 
 
 ///////////////////////////////////////////////////////////////////////////////////LIBRARIES

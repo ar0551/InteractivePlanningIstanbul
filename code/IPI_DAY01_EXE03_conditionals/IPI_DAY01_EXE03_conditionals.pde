@@ -9,12 +9,15 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE03
+ * Drawing rectangles when mouse pressed and deleting them with keyboard key
  *
  */
 
 /*
- * INSTRUCTIONS
+ * CONTROLS: 
+ * LeftMouseButton_ draw rectangles in mouse location
+ * AnyKey_ erase all the rectangles
  * 
  */
 

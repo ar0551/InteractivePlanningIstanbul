@@ -9,13 +9,15 @@
  */
 
 /* 
- * CONTROLS: 
+ * DAY01_EXE02
+ * Drawing a rectangle in the mouse location
  *
  */
 
 /*
- * INSTRUCTIONS
- * 
+ * CONTROLS:
+ * move the mouse to draw different rectangles
+ *
  */
 
 
