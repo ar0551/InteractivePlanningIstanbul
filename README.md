@@ -8,4 +8,6 @@ led by Andrea Rossi and Lila PanahiKazemi
 For more info:
 a.rossi.andrea@gmail.com
 lilapanahi@gmail.com
+
+http://temporaryautonomousarchitecture.blogspot.com/
                
