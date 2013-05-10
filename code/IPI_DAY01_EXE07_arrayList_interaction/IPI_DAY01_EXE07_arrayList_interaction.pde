@@ -1,14 +1,21 @@
 /* 
- * Copyright (c) 2013-2014 Lila PanahiKazemi & Andrea Rossi
+ * 
  * INTERACTIVE_PLANNING_ISTANBUL WORKSHOP
  * MediaCities Conference 2013 - 3-5 May 2013
  * Buffalo State University of New York
+ 
+ * Tutors: Lila PanahiKazemi, Andrea Rossi
  *
  * for more details: http://temporaryautonomousarchitecture.blogspot.de/
  * for questions regarding the script: a.rossi.andrea@gmail.com, lilapanahi@gmail.com
+ *
+ * All of the codes are licensed under a CreativeCommons Attribution-ShareAlike 3.0 license.
+ * http://creativecommons.org/licenses/by-sa/3.0/
+ *
  */
 
 /*
+ * This code is partially based on a tutorial by Daniel Shiffman, available online at: http://vimeo.com/shiffman
  * Libraries: Toxiclibs
  */
 
