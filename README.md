@@ -10,5 +10,6 @@ a.rossi.andrea@gmail.com
 lilapanahi@gmail.com
 
 http://temporaryautonomousarchitecture.blogspot.com/
+
 http://www.mediacities.net/
                
